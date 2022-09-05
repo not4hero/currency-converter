@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 
 body {
-  background-color: #30507a;
+  background-color: #244ea7;
 }
 
 * {
-  font-family: 'Inter', system-ui;
+  font-family: 'Inter', system-ui !important;
   box-sizing: border-box;
   user-select: none;
 }
 
 .App {
   display: grid;
-  grid-template-columns: 1fr 1fr; //
+  grid-template-columns: 1fr 1fr;
   grid-column-gap: 30px;
   width: 800px;
   margin: 100px auto;
@@ -46,7 +46,7 @@ body {
   overflow: hidden;
 
   li {
-    display: inline-flex; //
+    display: inline-flex;
     padding: 10px 20px;
     border-right: 1px solid rgba(0, 0, 0, 0.05);
     cursor: pointer;
@@ -62,7 +62,7 @@ body {
     }
 
     &.active {
-      background-color: #32d39a;
+      background-color: #16b67ec4;
       color: #fff;
     }
 
